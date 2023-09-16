@@ -1,86 +1,165 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="es">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Leonel G</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Varela+Round">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <title>Document</title>
 </head>
 
 <body>
-    <section id="inicio" class="bg-dark text-white p-5">
-        <div class="container-fluid">
-            <div class="row row--30 align-items-center">
-                <div class="order-2 order-lg-1 col-lg-7 mt_md--50 mt_sm--50 mt_lg--30">
-                    <div class="content">
-                        <div class="inner">
-                            <span class="subtitle">Welcome to my world</span>
-                            <h1 class="title">Hi, I’m <span>Jone Lee</span><br>
-                                <span class="header-caption" id="page-top">
-                                    <!-- type headline start-->
-                                    <span class="cd-headline clip is-full-width">
-                                        <span>a </span>
-                                <!-- ROTATING TEXT -->
-                                <span class="cd-words-wrapper" style="width: 257.469px;">
-                                            <b class="is-visible">Developer.</b>
-                                            <b class="is-hidden">Professional Coder.</b>
-                                            <b class="is-hidden">Developer.</b>
-                                        </span>
-                                </span>
-                                <!-- type headline end -->
-                                </span>
-                            </h1>
+    <!-- Sección de inicio -->
+    <section id="header" class="bg-dark text-white">
+        <!-- Imagen de fondo -->
+        <div class="background-image"
+            style="background-image: url('https://images.unsplash.com/photo-1508615070457-7baeba4003e0?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8d2VifGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60'); background-size: cover; background-position: center; background-repeat: no-repeat;">
+        </div>
+        <!-- Contenedor de la sección -->
+        <div class="container vh-100">
+            <!-- Fila de la sección -->
+            <div class="row h-100 align-items-center">
+                <!-- Columna de la sección -->
+                <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12 mx-auto text-start">
+                    <!-- Título de la sección -->
+                    <h1 class="display-4 pb-5 effect-static-text fw-bold" style="margin-bottom: -35px;">Leonel Guevara
+                    </h1>
+                    <p class="lead text-white mb-5">Locamente apasionado con el <span class="fw-bold">Desarrollo de
+                            Páginas Web</span></p>
+                    <!-- Navbar de la página -->
+                    <nav class="navbar navbar-expand-sm navbar-dark" style="margin-top: -30px;">
+                        <!-- Botón para mostrar u ocultar el navbar colapsado -->
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false"
+                            aria-label="Toggle navigation">
+                            <span class="effect-static-text bi bi-arrow-down-circle"></span>
+                        </button>
 
-                            <div>
-                                <p class="description">I use animation as a third dimension by which to simplify
-                                    experiences and kuiding thro each and every interaction. I’m not adding
-                                    motion
-                                    just to spruce things up, but doing it in ways that.</p>
-                            </div>
+                        <!-- Elemento que contiene el navbar colapsado -->
+                        <div class="collapse navbar-collapse justify-content-start" id="navbarCollapse">
+                            <!-- Lista de menús -->
+                            <ul class="nav text-small ">
+                                <!-- Menú Inicio -->
+                                <li>
+                                    <a href="#" class="nav-link text-white effect-flout" style="padding-left: 0px;">
+                                        <!-- Icono de inicio -->
+                                        <i
+                                            class="effect-static-text bi bi-house-fill d-block mx-auto mb-1 text-center"></i>
+                                        Inicio
+                                    </a>
+                                </li>
+                                <!-- Menú Sobre mí -->
+                                <li>
+                                    <a href="#" class="nav-link text-white effect-flout">
+                                        <!-- Icono de sobre mí -->
+                                        <i
+                                            class="effect-static-text bi bi-person-circle d-block mx-auto mb-1 text-center "></i>
+                                        Sobre mí
+                                    </a>
+                                </li>
+                                <!-- Menú Portafolio -->
+                                <li>
+                                    <a href="#" class="nav-link text-white effect-flout">
+                                        <!-- Icono de portafolio -->
+                                        <i
+                                            class="effect-static-text bi bi-briefcase-fill d-block mx-auto mb-1 text-center"></i>
+                                        Portafolio
+                                    </a>
+                                </li>
+                                <!-- Menú Blogs -->
+                                <li>
+                                    <a href="#" class="nav-link text-white effect-flout">
+                                        <!-- Icono de blogs -->
+                                        <i
+                                            class="effect-static-text bi bi-newspaper d-block mx-auto mb-1 text-center"></i>
+                                        Blogs
+                                    </a>
+                                </li>
+                            </ul>
                         </div>
-                        <div class="row">
-                            <div class="col-lg-6 col-xl-6 col-md-6 col-sm-6 col-12">
-                                <div class="social-share-inner-left">
-                                    <span class="title">find with me</span>
-                                    <ul class="social-share d-flex liststyle">
-                                        <li class="facebook"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-facebook"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path></svg></a>
-                                        </li>
-                                        <li class="instagram"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-instagram"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg></a>
-                                        </li>
-                                        <li class="linkedin"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-linkedin"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg></a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="col-lg-6 col-xl-6 col-md-6 col-sm-6 col-12 mt_mobile--30">
-                                <div class="skill-share-inner">
-                                    <span class="title">best skill on</span>
-                                    <ul class="skill-share d-flex liststyle">
-                                        <li><img src="assets/images/icons/icons-01.png" alt="Icons Images"></li>
-                                        <li><img src="assets/images/icons/icons-02.png" alt="Icons Images"></li>
-                                        <li><img src="assets/images/icons/icons-03.png" alt="Icons Images"></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                    </nav>
                 </div>
-
-                <div class="order-1 order-lg-2 col-lg-5">
-                    <div class="thumbnail">
-                        <div class="inner">
-                            <img src="assets/images/slider/banner-01.png" alt="Personal Portfolio Images">
+                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                    <!-- Imagen con estilo -->
+                    <!-- Imagen de perfil -->
+                    <div class="rounded-pill d-inline-block img-perfil" style="visibility: visible;">
+                        <div class="img-perfil-effect img-fluid rounded-pill ">
+                            <img class="img-fluid rounded-pill d-block shadow-lg"
+                                src="https://scontent.fmar2-1.fna.fbcdn.net/v/t1.15752-9/374972689_275325475312518_5479345605983649474_n.png?_nc_cat=109&ccb=1-7&_nc_sid=ae9488&_nc_ohc=RgW7M6iTEdsAX8a8hfN&_nc_ht=scontent.fmar2-1.fna&oh=03_AdSA3XpcX1qP4L2TrxKWswq870PhewL-sE8QWvSXKR0vvQ&oe=652B1CAA"
+                                title="I'm Callum" alt="I'm David">
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+
+        h1 {
+            font-family: 'Archivo Black', sans-serif;
+        }
+
+        section#header {
+            background: url(https://i.imgur.com/jSkgE4n.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            /* background-attachment: fixed; */
+        }
+
+        .img-perfil {
+            background-size: cover;
+            background-attachment: fixed;
+            padding: 10px;
+            box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.5);
+            transition: all 0.5s ease-in-out;
+            background-color: black;
+        }
+
+        .img-perfil img {
+            filter: grayscale(100%);
+        }
+
+        .img-perfil-effect {
+            background-image: url('');
+            background-image: -webkit-linear-gradient(45deg, var(--secondary-color) 15%, #65ff00 65%);
+            background-image: linear-gradient(45deg, #ceff1a 15%, #65ff00 65%);
+            padding: 3px;
+        }
+
+        .img-perfil:hover {
+            transform: scale(1.1);
+            padding: 2px;
+        }
+
+        .effect-static-text {
+            background-image: -webkit-linear-gradient(45deg, var(--secondary-color) 15%, #65ff00 65%);
+            background-image: linear-gradient(45deg, #ceff1a 15%, #65ff00 65%);
+            -webkit-background-clip: text;
+            -moz-background-clip: text;
+            background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .effect-flout {
+            transform: translateY(10px);
+            transition: transform 0.5s ease-in-out;
+        }
+
+        .effect-flout:hover {
+            transform: translateY(0);
+        }
+    </style>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.2/dist/umd/popper.min.js"
+        integrity="sha384-q9CRHqZndzlxGLOj+xrdLDJa9ittGte1NksRmgJKeCV9DrM7Kz868XYqsKWPpAmn"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+        integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
         crossorigin="anonymous"></script>
 </body>
 
