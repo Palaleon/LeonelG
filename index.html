@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,7 +8,7 @@
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Varela+Round">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
-    <title>Document</title>
+    <title>Portafolio Leonel Guevara</title>
 </head>
 
 <body>
@@ -20,16 +21,16 @@
         <!-- Contenedor de la sección -->
         <div class="container vh-100">
             <!-- Fila de la sección -->
-            <div class="row h-100 align-items-center">
+            <div class="row h-100 align-items-center align-content-center">
                 <!-- Columna de la sección -->
-                <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12 mx-auto text-start">
+                <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12 mx-auto text-start order-2 order-sm-1 welcome">
                     <!-- Título de la sección -->
                     <h1 class="display-4 pb-5 effect-static-text fw-bold" style="margin-bottom: -35px;">Leonel Guevara
                     </h1>
-                    <p class="lead text-white mb-5">Locamente apasionado con el <span class="fw-bold">Desarrollo de
+                    <p class="lead text-white mb-4">Locamente apasionado con el <span class="fw-bold">Desarrollo de
                             Páginas Web</span></p>
                     <!-- Navbar de la página -->
-                    <nav class="navbar navbar-expand-sm navbar-dark" style="margin-top: -30px;">
+                    <nav class="navbar navbar-expand-sm navbar-dark navbar-center" style="margin-top: -30px;">
                         <!-- Botón para mostrar u ocultar el navbar colapsado -->
                         <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                             data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false"
@@ -81,64 +82,81 @@
                         </div>
                     </nav>
                 </div>
-                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                <div
+                    class="col-lg-4 col-md-4 col-sm-4 col-xs-12 text-center align-self-center mb-4 mb-lg-0 order-1 order-sm-2">
                     <!-- Imagen con estilo -->
                     <!-- Imagen de perfil -->
-                    <div class="rounded-pill d-inline-block img-perfil" style="visibility: visible;">
-                        <div class="img-perfil-effect img-fluid rounded-pill ">
-                            <img class="img-fluid rounded-pill d-block shadow-lg"
-                                src="https://scontent.fmar2-1.fna.fbcdn.net/v/t1.15752-9/374972689_275325475312518_5479345605983649474_n.png?_nc_cat=109&ccb=1-7&_nc_sid=ae9488&_nc_ohc=RgW7M6iTEdsAX8a8hfN&_nc_ht=scontent.fmar2-1.fna&oh=03_AdSA3XpcX1qP4L2TrxKWswq870PhewL-sE8QWvSXKR0vvQ&oe=652B1CAA"
-                                title="I'm Callum" alt="I'm David">
-                        </div>
-                    </div>
+                    <div class="d-inline-block justify-content-center interface-perfil" bis_skin_checked="1"
+                        style="visibility: visible;"> <img class="img-fluid rounded-pill"
+                            src="https://scontent.fmar6-1.fna.fbcdn.net/v/t1.15752-9/374972689_275325475312518_5479345605983649474_n.png?_nc_cat=109&ccb=1-7&_nc_sid=ae9488&_nc_ohc=Sm_uYpYaq0EAX_U-nPS&_nc_ht=scontent.fmar6-1.fna&oh=03_AdQyoq0UTMDIuVW__CBspQaVNAJvqKt8KzU1jEjq__NFXA&oe=65333DEA"
+                            title="I'm Callum" alt="I'm David"></div>
                 </div>
             </div>
         </div>
     </section>
-
-
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+        @media (max-width: 575px) {
+            .interface-perfil {
+                width: 35%;
+                margin-top: 200px;
+            }
+
+            .welcome {
+                text-align: center !important;
+            }
+
+            .navbar-center {
+                position: relative;
+                display: flex;
+                flex-wrap: nowrap;
+                align-items: center;
+                justify-content: center;
+                padding-top: .5rem;
+                padding-bottom: .5rem;
+                flex-direction: column;
+            }
+            section#header{
+                height: 140vh !important;
+            }
+        }
+
+        :root {
+            --bs-primary: #f2235c;
+            --bs-secondary: #89163b;
+            --bs-success: #198754;
+            --bs-info: #0dcaf0;
+            --bs-warning: #ffc107;
+            --bs-danger: #dc3545;
+        }
+
+        body {
+            font-family: 'Poppins', sans-serif !important;
+        }
 
         h1 {
-            font-family: 'Archivo Black', sans-serif;
+            font-family: 'Poppins', sans-serif;
         }
 
         section#header {
-            background: url(https://i.imgur.com/jSkgE4n.jpg);
+            background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://img.freepik.com/free-vector/low-poly-network-mesh-connection-design_1017-29580.jpg?w=996&t=st=1695157015~exp=1695157615~hmac=de9bca7ab5ef2ab88a18dc6d40a2a0c20fc0f1eed86c6bc1008649078a1ee4d3');
             background-size: cover;
             background-repeat: no-repeat;
             /* background-attachment: fixed; */
         }
 
-        .img-perfil {
+        .interface-perfil {
+            background: url(https://scontent.fmar6-1.fna.fbcdn.net/v/t1.15752-9/380971105_824043212535806_3105682880323082590_n.png?_nc_cat=101&ccb=1-7&_nc_sid=ae9488&_nc_ohc=eCcUOqtTmQwAX8HHjJO&_nc_ht=scontent.fmar6-1.fna&oh=03_AdQEvAJPwkyqmJwmK9hduDVBkJsMhr8teBFbngEMTmtEww&oe=6533469C);
             background-size: cover;
-            background-attachment: fixed;
-            padding: 10px;
-            box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.5);
-            transition: all 0.5s ease-in-out;
-            background-color: black;
-        }
-
-        .img-perfil img {
-            filter: grayscale(100%);
-        }
-
-        .img-perfil-effect {
-            background-image: url('');
-            background-image: -webkit-linear-gradient(45deg, var(--secondary-color) 15%, #65ff00 65%);
-            background-image: linear-gradient(45deg, #ceff1a 15%, #65ff00 65%);
-            padding: 3px;
-        }
-
-        .img-perfil:hover {
-            transform: scale(1.1);
-            padding: 2px;
+            background-repeat: no-repeat;
         }
 
         .effect-static-text {
-            background-image: -webkit-linear-gradient(45deg, var(--secondary-color) 15%, #65ff00 65%);
-            background-image: linear-gradient(45deg, #ceff1a 15%, #65ff00 65%);
+            background-image: -webkit-linear-gradient(45deg, var(--bs-primary) 15%, var(--bs-secondary) 65%);
+            background-image: linear-gradient(45deg, var(--bs-primary) 15%, var(--bs-secondary) 65%);
             -webkit-background-clip: text;
             -moz-background-clip: text;
             background-clip: text;
